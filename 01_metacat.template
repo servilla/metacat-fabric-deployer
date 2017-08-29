@@ -1,0 +1,10 @@
+User_Alias METACAT = USER
+METACAT ALL=NOPASSWD: /bin/su -l metacat
+metacat ALL=NOPASSWD: /usr/sbin/service apache2 status
+metacat ALL=NOPASSWD: /usr/sbin/service apache2 start
+metacat ALL=NOPASSWD: /usr/sbin/service apache2 stop
+metacat ALL=NOPASSWD: /usr/sbin/service apache2 restart
+metacat ALL=NOPASSWD: /usr/sbin/service tomcat7 status
+metacat ALL=NOPASSWD: /usr/sbin/service tomcat7 start
+metacat ALL=NOPASSWD: /usr/sbin/service tomcat7 stop
+metacat ALL=NOPASSWD: /usr/sbin/service tomcat7 restart
